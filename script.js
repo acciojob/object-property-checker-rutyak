@@ -4,6 +4,12 @@ function hasKey(key) {
   return Object.prototype.hasOwnProperty.call(sampleObject, key);
 }
 
+// Example usage:
+console.log(hasKey("red"));    // true
+console.log(hasKey("blue"));   // false
+console.log(hasKey("white"));  // true
+
+
 // Do not change the code below
 const key = prompt("Enter Key.");
 alert(hasKey(key));
